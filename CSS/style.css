@@ -1,0 +1,7 @@
+@import "reset.css";
+/* components */
+@import "./components/nav.css";
+
+* {
+  background-color: #eeeae4;
+}
