@@ -4,4 +4,25 @@
 .main__img {
   width: 100%;
   height: 88vh;
+  position: relative;
+}
+
+.main p {
+  position: absolute;
+  background: none;
+  color: #fff;
+  left: 45px;
+  opacity: 0.9;
+}
+.main__txt1 {
+  font-size: 90px;
+  font-weight: 700;
+  top: 450px;
+  letter-spacing: -8px;
+}
+.main__txt2 {
+  font-size: 45px;
+  font-weight: 400;
+  top: 550px;
+  letter-spacing: -2px;
 }
