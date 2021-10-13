@@ -1,7 +1,18 @@
 @import "reset.css";
-/* components */
-@import "./components/nav.css";
 
-* {
+/* screens */
+
+@import "./screen/main.css";
+
+/* components */
+
+@import "./components/nav.css";
+@import "./components/footer.css";
+
+html,
+body {
   background-color: #eeeae4;
+  height: 100vh;
+  width: 100vw;
+  -webkit-text-size-adjust: none;
 }
