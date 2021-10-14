@@ -3,10 +3,12 @@
 /* screens */
 
 @import "./screen/main.css";
+@import "./screen/introduce.css";
 
 /* components */
 
 @import "./components/nav.css";
+@import "./components/nav2.css";
 @import "./components/footer.css";
 
 html,

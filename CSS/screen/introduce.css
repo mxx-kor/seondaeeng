@@ -1,0 +1,39 @@
+.introduce__sm-title {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.introduce__greeting {
+  margin-top: 50px;
+  margin-left: 180px;
+  font-size: 35px;
+  position: absolute;
+  color: aliceblue;
+}
+
+.introduce__info {
+  position: absolute;
+  top: 600px;
+  left: 180px;
+  font-size: 25px;
+  color: aliceblue;
+}
+
+.introduce__history {
+  margin-left: 600px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.introduce__img1 {
+  display: block;
+  margin: 0px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+.introduce__img2 {
+  display: block;
+  margin: 0px auto;
+}

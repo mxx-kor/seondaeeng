@@ -1,0 +1,47 @@
+.nav2 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin: 15px;
+  z-index: 1;
+}
+
+.nav2__lists {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav2__list {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 550;
+  color: #fff;
+}
+
+.nav2__logo {
+  width: 200px;
+  height: 45px;
+  background-color: #fff;
+  border: solid 1px #fff;
+  border-radius: 5px;
+}
+
+.nav2__bgimg {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 45vh;
+  opacity: 1;
+}
+
+.nav2__titles {
+  position: relative;
+  text-align: center;
+  top: 80px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  z-index: 1;
+}
