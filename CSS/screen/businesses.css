@@ -1,0 +1,15 @@
+.nav2__list:first-child {
+  color: #6b9ecc;
+}
+
+.business__sm-title {
+  color: #4a4e4d;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.business__info {
+  display: flex;
+  justify-content: center;
+}

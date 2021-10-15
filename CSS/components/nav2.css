@@ -31,8 +31,8 @@
   position: absolute;
   top: 0px;
   width: 100%;
-  height: 45vh;
-  opacity: 1;
+  height: 45%;
+  filter: brightness(50%);
 }
 
 .nav2__titles {
@@ -44,4 +44,13 @@
   font-size: 40px;
   font-weight: 500;
   z-index: 1;
+}
+
+.nav2__title-line {
+  display: block;
+  width: 1px;
+  height: 40px;
+  margin: 20px auto;
+  background: #fff;
+  content: "";
 }
