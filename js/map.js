@@ -22,13 +22,13 @@ var options2 = {
 
 var map = new kakao.maps.Map(container2, options2);
 
-var markerPosition2  = new kakao.maps.LatLng(35.98935452396864, 126.71108059764146); 
+var markerPosition  = new kakao.maps.LatLng(35.98935452396864, 126.71108059764146); 
 
-var marker2 = new kakao.maps.Marker({
+var marker = new kakao.maps.Marker({
     position: markerPosition
 });
 
-marker2.setMap(map);
+marker.setMap(map);
 
 var container3 = document.getElementById('map3');
 var options3 = {
@@ -38,10 +38,10 @@ var options3 = {
 
 var map = new kakao.maps.Map(container3, options3);
 
-var markerPosition3  = new kakao.maps.LatLng(35.85742410789543, 127.15551606880165); 
+var markerPosition  = new kakao.maps.LatLng(35.85742410789543, 127.15551606880165); 
 
-var marker3 = new kakao.maps.Marker({
+var marker = new kakao.maps.Marker({
     position: markerPosition
 });
 
-marker3.setMap(map);
+marker.setMap(map);
