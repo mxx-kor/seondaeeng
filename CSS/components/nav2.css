@@ -19,6 +19,10 @@
   color: #fff;
 }
 
+.nav2__lists .on > a {
+  color: #6b9ecc;
+}
+
 .nav2__logo {
   width: 200px;
   height: 45px;
