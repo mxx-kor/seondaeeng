@@ -13,3 +13,11 @@ var options2 = {
 };
 
 var map = new kakao.maps.Map(container2, options2);
+
+var container3 = document.getElementById('map3');
+var options3 = {
+    center: new kakao.maps.LatLng(33.450701, 126.570667),
+    level: 3
+};
+
+var map = new kakao.maps.Map(container3, options3);

@@ -1,0 +1,13 @@
+.address {
+  text-align: center;
+  font-size: 25px;
+  color: #4a4e4d;
+  margin-bottom: 30px;
+}
+
+#map1,
+#map2,
+#map3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
