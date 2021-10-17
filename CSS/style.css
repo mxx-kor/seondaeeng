@@ -5,6 +5,7 @@
 @import "./screen/main.css";
 @import "./screen/introduce.css";
 @import "./screen/businesses.css";
+@import "./screen/excutive.css";
 
 /* components */
 
@@ -12,10 +13,15 @@
 @import "./components/nav2.css";
 @import "./components/footer.css";
 
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+
 html,
 body {
   background-color: #eeeae4;
   height: 100vh;
   width: 100%;
   -webkit-text-size-adjust: none;
+  font-family: "Noto Sans KR", sans-serif;
 }

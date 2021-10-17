@@ -18,13 +18,13 @@
   font-size: 90px;
   font-weight: 700;
   top: 450px;
-  letter-spacing: -8px;
+  letter-spacing: -4px;
 }
 .main__txt2 {
   font-size: 45px;
   font-weight: 400;
   top: 550px;
-  letter-spacing: -2px;
+  letter-spacing: -3px;
 }
 .container {
   position: relative;

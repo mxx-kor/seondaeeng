@@ -1,0 +1,21 @@
+.excutive {
+  text-align: center;
+}
+.excutive__sm-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.excutive__name {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.excutive__structure {
+  text-align: center;
+}
+
+.excutive__structure-title {
+  font-size: 25px;
+  color: #4a4e4d;
+}
