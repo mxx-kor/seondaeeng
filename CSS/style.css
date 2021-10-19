@@ -23,6 +23,7 @@ body {
   background-color: #eeeae4;
   height: 100vh;
   width: 100%;
+  min-width: 980px;
   -webkit-text-size-adjust: none;
   font-family: "Noto Sans KR", sans-serif;
 }

@@ -20,7 +20,8 @@
 }
 
 .nav2__lists .on > a {
-  color: #6b9ecc;
+  color: #397291;
+  font-weight: 600;
 }
 
 .nav2__logo {
@@ -35,6 +36,7 @@
   position: absolute;
   top: 0px;
   width: 100%;
+  min-width: 980px;
   height: 45%;
   filter: brightness(50%);
 }

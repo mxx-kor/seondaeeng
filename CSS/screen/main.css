@@ -9,6 +9,7 @@
 
 .main p {
   position: absolute;
+  min-width: 980px;
   background: none;
   color: #fff;
   left: 45px;
