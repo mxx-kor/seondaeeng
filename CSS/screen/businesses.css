@@ -1,14 +1,31 @@
 .business {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 80px 200px;
+  margin: 30px 0;
+  width: 100%;
 }
-.business__sm-title {
+.business__sm-title1,
+.business__sm-title2 {
   color: #4a4e4d;
-  font-size: 50px;
+  justify-content: center;
+  font-size: 35px;
+  margin-right: 50px;
+}
+
+.business__sm-title1 {
+  margin-left: 50px;
 }
 
 .business__info {
-  font-size: 20px;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.business__line {
+  width: 4px;
+  height: 70px;
+  margin-right: 100px;
+  background: #184b46;
+  content: " ";
 }
