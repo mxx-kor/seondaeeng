@@ -9,7 +9,7 @@
   background-size: cover;
   min-width: var(--min-width);
   position: relative;
-  animation: changebg 18s linear infinite;
+  animation: changebg 20s ease-in-out infinite;
   animation-direction: alternate;
 }
 
