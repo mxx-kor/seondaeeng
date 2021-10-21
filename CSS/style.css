@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "variables.css";
 
 /* screens */
 
@@ -21,9 +22,9 @@
 html,
 body {
   background-color: #eeeae4;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
-  min-width: 980px;
+  min-width: var(--min-width);
   -webkit-text-size-adjust: none;
   font-family: "Noto Sans KR", sans-serif;
 }

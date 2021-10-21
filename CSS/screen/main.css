@@ -4,7 +4,34 @@
 .main__img {
   width: 100%;
   height: 88vh;
+  background-image: url(/assets/main1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: var(--min-width);
   position: relative;
+  animation: changebg 18s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changebg {
+  0% {
+    background-image: url(/assets/main1.jpg);
+  }
+  20% {
+    background-image: url(/assets/main1.jpg);
+  }
+  40% {
+    background-image: url(/assets/main2.jpg);
+  }
+  60% {
+    background-image: url(/assets/main2.jpg);
+  }
+  80% {
+    background-image: url(/assets/main3.jpg);
+  }
+  100% {
+    background-image: url(/assets/main3.jpg);
+  }
 }
 
 .main p {
