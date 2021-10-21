@@ -43,15 +43,15 @@
   opacity: 0.9;
 }
 .main__txt1 {
-  font-size: 90px;
+  font-size: 10vh;
   font-weight: 700;
-  top: 450px;
+  top: 500px;
   letter-spacing: -4px;
 }
 .main__txt2 {
-  font-size: 45px;
+  font-size: 4.5vh;
   font-weight: 400;
-  top: 550px;
+  top: 600px;
   letter-spacing: -3px;
 }
 .container {
