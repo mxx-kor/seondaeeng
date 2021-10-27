@@ -14,12 +14,10 @@
   color: #184b46;
 }
 
-.introduce__info {
+.introduce__infos {
   display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: 20px;
-  width: auto auto;
 }
 
 .introduce__history {
