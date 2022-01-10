@@ -31,21 +31,12 @@
 }
 
 .introduce__img1 {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .introduce__img {
-  width: 800px;
+  width: 50%;
   border-radius: 10px;
-}
-
-.introduce__img1 .img__text {
-  position: absolute;
-  top: 350px;
-  left: 400px;
-  font-size: 30px;
-  font-weight: 700;
 }
