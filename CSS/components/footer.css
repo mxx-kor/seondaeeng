@@ -16,4 +16,5 @@
 .footer__infos {
   margin-left: 30px;
   font-size: 15px;
+  min-width: 740px;
 }

@@ -1,23 +1,23 @@
 .introduce__sm-title {
-  text-align: center;
   font-size: 35px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  margin: 30px 0px;
 }
 
 .introduce__greeting {
-  display: flex;
-  justify-content: center;
-  margin: 20px auto;
-  text-align: left;
-  font-size: 30px;
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0px;
   color: #184b46;
 }
 
 .introduce__infos {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
+  width: 40%;
+  margin-top: 10px;
 }
 
 .introduce__history {
@@ -27,9 +27,20 @@
 }
 
 .introduce__img1 {
-  display: block;
-  margin: 0px auto;
-  width: 600px;
-  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 90px;
+}
+.introduce__img {
+  width: 400px;
   border-radius: 10px;
+}
+
+.introduce__img1 .img__text {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  font-size: 18px;
+  font-weight: 700;
 }
