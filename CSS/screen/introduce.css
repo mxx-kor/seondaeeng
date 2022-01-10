@@ -2,13 +2,15 @@
   font-size: 35px;
   text-align: center;
   width: 100%;
-  margin: 30px 0px;
+  margin: 80px 0px;
 }
 
 .introduce__greeting {
-  text-align: center;
-  font-size: 25px;
-  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 40px 0px;
   color: #184b46;
 }
 
@@ -16,31 +18,34 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
-  margin-top: 10px;
+  width: 60%;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 .introduce__history {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
 }
 
 .introduce__img1 {
   position: relative;
   display: flex;
-  justify-content: space-around;
-  margin: 0px 90px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .introduce__img {
-  width: 400px;
+  width: 800px;
   border-radius: 10px;
 }
 
 .introduce__img1 .img__text {
   position: absolute;
-  top: 180px;
-  left: 70px;
-  font-size: 18px;
+  top: 350px;
+  left: 400px;
+  font-size: 30px;
   font-weight: 700;
 }
